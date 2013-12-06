@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DjangoImportCache
+# key: i_cache
+# group: Django Import
+# contributor: David Miller <david@deadpansinceity.com>
+# --
+from django.core.cache import cache

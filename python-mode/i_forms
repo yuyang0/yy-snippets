@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: DjangoImportForms
+# key: i_forms
+# group: Django Import
+# contributor: David Miller <david@deadpansinceity.com>
+# --
+from django import forms
+$0

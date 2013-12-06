@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DjangoImportRequestContext
+# key: i_requestcontext
+# group: Django Import
+# contributor: David Miller <david@deadpansinceity.com>
+# --
+from django.template import RequestContext

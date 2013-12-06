@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DjangoImportModels
+# key: i_models
+# group: Django Import
+# contributor: David Miller <david@deadpansinceity.com>
+# --
+from django.db import models

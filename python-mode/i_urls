@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: DjangoImportUrls
+# key: i_urls
+# group: Django Import
+# contributor: David Miller <david@deadpansinceity.com>
+# --
+from django.conf.urls import patterns, url
+urlpatterns = patterns('$1',
+    url(r'^${2:}', '${3:viewname}', name='${4:patt_name}'),
+    $0
+
+)
