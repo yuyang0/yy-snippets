@@ -1,0 +1,5 @@
+# name: travis-ci build
+# contributor: Yu Yang <yy2012cn@NOSPAM.gmail.com>
+# key: build
+# --
+[![Build Status](https://travis-ci.org/${1:YOUR_GITHUB_USERNAME}/${2:YOUR_PROJECT_NAME}.png)](https://travis-ci.org/$1/$2)
